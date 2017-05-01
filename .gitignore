@@ -3,3 +3,4 @@ local
 *.pyc
 ndstool
 custom*
+/.vs
