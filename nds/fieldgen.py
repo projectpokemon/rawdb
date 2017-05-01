@@ -38,7 +38,7 @@ def makeHtmlEntries(datafmt, fname, ofile, separator=defaultSeparator):
         ofile.write(separator(i))
         for field in entry:
             line = ""
-            if type(field[1]) == type("string"):
+            if isinstance(field[1], basestring):
                 line = "\n<tr><td>%s</td><td>%s</td></tr>\n" % (field[0], field[1].strip())
             else:
                 line = "\n<tr><td>%s</td><td>%i</td></tr>\n" % (field[0], field[1])
