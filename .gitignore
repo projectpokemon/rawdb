@@ -1,7 +1,8 @@
 static
-local
+local/data/*/fs/
 *.pyc
 ndstool
 custom*
 /.vs
 .idea/
+
