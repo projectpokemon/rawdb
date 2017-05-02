@@ -95,7 +95,7 @@ ZUKAN_FILE = {
     "diamond":"/application/zukanlist/zkn_data/zukan_data.narc",
     "platinum":"/application/zukanlist/zkn_data/zukan_data_gira.narc",
     "heartgold":"/a/0/7/4",
-    "black":"/a/0/2/1",
+    #"black":"/a/0/2/1",
 } 
 
 def getFSHTML(FEXT):
